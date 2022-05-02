@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body { margin: 0; height: 100%; }
+body,button,input,p,span,h1,h2,h3,h4,h5,h6 { font-family: 'Poppins', sans-serif!important; }
+
+img{
+    width: 100%;
+}
+span{
+    font-size: 13px;
+}
+a{
+    color: #056CB1;
+}
+button{
+    margin: 10px 0px!important;
+    width: 100%;
+    padding: 6px 0px;
+    background-color: #056CB1!important;
+    color: white!important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex, .mat-form-field-appearance-fill .mat-form-field-infix {
+    padding: 4px 10px!important;
+}
+.float-right{
+    float: right;
+}
+.login{
+    margin-top: 140px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  
